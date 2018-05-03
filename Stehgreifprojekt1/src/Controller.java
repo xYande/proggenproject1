@@ -7,13 +7,18 @@ public class Controller {
 		String line;
 		
 		System.out.println("Willkommen bei BuildYourBurger!");
-		System.out.println("Bitte geben Sie Ihre Bestellung für Ihre Lieblingsburger ein.");
-		System.out.println("Mit „menu“ können Sie sich die vollständigen Zutaten anzeigen lassen.");
-		System.out.println("Mit „zutat“ und der jeweiligen Nummer können Sie eine Zutat auswählen.");
-		System.out.println("Mit „ok“ können sie Ihre Burgerzusammenstellung abschließen.");
-		System.out.println("Mit „meine burger“ wird ihre aktuelle Bestellung angezeigt.");
-		System.out.println("Mit „bestellen“ wird die Bestellung abgeschlossen.");
-		System.out.println("Bitte geben Sie ihre Wünsche ein: ");
+		System.out.println("Bitte geben Sie Ihre Bestellung fÃ¼r Ihre Lieblingsburger ein.");
+		System.out.println("Mit â€menuâ€œ kÃ¶nnen Sie sich die vollstÃ¤ndigen Zutaten anzeigen lassen.");
+		System.out.println("Mit â€zutatâ€œ und der jeweiligen Nummer kÃ¶nnen Sie eine Zutat auswÃ¤hlen.");
+		System.out.println("Mit â€okâ€œ kÃ¶nnen sie Ihre Burgerzusammenstellung abschlieÃŸen.");
+		System.out.println("Mit â€meine burgerâ€œ wird ihre aktuelle Bestellung angezeigt.");
+		System.out.println("Mit â€bestellenâ€œ wird die Bestellung abgeschlossen.");
+		System.out.println("Bitte wÃ¤hlen Sie zuerst ein BurgerbrÃ¶tchen Ihrer Wahl.");
+		System.out.println("Hierbei stehen Ihnen 4 Sorten zur Auswahl. BestÃ¤tigen Sie die von Ihnen gewÃ¼nschte Sorte mit der angegebenen Zahl.");
+		System.out.println("Hamburger (Standard), 0,85â‚¬ (10)");
+		System.out.println("Hamburger Sesam, 0,95â‚¬ (11)");
+		System.out.println("Vegan-BrÃ¶tchen, 0,55â‚¬ (12)");
+		System.out.println("Ciabatta, 0,45â‚¬ (13)");
 		line = StaticScanner.nextString();
 		action = line.split(" ");
 	}
