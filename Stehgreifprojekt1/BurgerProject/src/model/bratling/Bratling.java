@@ -11,7 +11,13 @@ public abstract class Bratling extends Zutat {
         this.bratzeit = bratzeit;
         this.hoehe = hoehe;
     }
+   public int zubereiten () {
+        System.out.println("Ihr Burgerpatty wird gebraten und dauert " + bratzeit + "Sekunden bis es durch ist.");
+        return bratzeit;
+    }
 
-
-
+    public double berechneHoehe () {
+        double bratlingHoehe = (hoehe * 0.965) * bratzeit / 60;
+        return bratlingHoehe;
+    }
 }
